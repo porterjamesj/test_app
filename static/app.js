@@ -1,7 +1,7 @@
 $(function () {
   setTimeout(function () {
     $.post({
-      url: "/users",
+      url: "/user",
       data: {name: "Casey", status: "cool"}
     });
   }, 3000);
